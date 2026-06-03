@@ -12,7 +12,6 @@ import java.util.stream.IntStream;
 
 import org.springframework.web.bind.annotation.GetMapping;
 
-
 @RestController
 public class CompressionController {
 
@@ -33,7 +32,5 @@ public class CompressionController {
                         skills.get(new Random().nextInt(skills.size()))
                 ))
                 .collect(Collectors.toList());
-
-
     }
 }

@@ -33,4 +33,5 @@ public class CompressionController {
                 ))
                 .collect(Collectors.toList());
     }
+    
 }
